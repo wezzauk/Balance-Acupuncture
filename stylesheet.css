@@ -1,0 +1,51 @@
+body{
+  font-family: Arial;
+
+  background-color: rgb(37, 37, 37);
+  color: white;
+  justify-content: space-between;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: rgb(12, 12, 12);
+  border-width: 2px;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.sick-meridian-list {
+  display: block;
+  background-color: lightpink;
+  padding: 20px 30px;
+}
+
+.results-section {
+  background-color: gray;
+
+}
+
+button {
+  background-color: yellow;
+  width: 160px;
+  padding: 8px 0px;;
+  margin: 10px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.results-meridian-title-section {
+  padding: 30px 30px;
+}
+
+.sick-meridian-title {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.treating-meridian-container {
+  padding: 30px 30px;
+}
