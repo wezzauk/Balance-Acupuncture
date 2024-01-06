@@ -11,37 +11,40 @@
       <div class="sick-meridian-list">
         <div>Choose 'sick' meridian</div>
         <div>
-          <button>Bladder</button>
+          <button onclick="showTreatingMeridian('bladder')">Bladder</button>
         </div>
         <div>
-          <button>Stomach</button>
+          <button onclick="showTreatingMeridian('stomach')">Stomach</button>
         </div>
         <div>
-          <button>Gallbladder</button>
+          <button onclick="showTreatingMeridian('gallbladder')">Gallbladder</button>
         </div>
         <div>
-          <button>Liver</button>
+          <button onclick="showTreatingMeridian('spleen')">Spleen</button>
         </div>
         <div>
-          <button>Kidney</button>
+          <button onclick="showTreatingMeridian('liver')">Liver</button>
         </div>
         <div>
-          <button>Large Intestine</button>
+          <button onclick="showTreatingMeridian('kidney')">Kidney</button>
         </div>
         <div>
-          <button>Small Intestine</button>
+          <button onclick="showTreatingMeridian('largeIntestine')">Large Intestine</button>
         </div>
         <div>
-          <button>Lung</button>
+          <button onclick="showTreatingMeridian('smallIntestine')">Small Intestine</button>
         </div>
         <div>
-          <button>Heart</button>
+          <button onclick="showTreatingMeridian('lung')">Lung</button>
         </div>
         <div>
-          <button>Triple burner</button>
+          <button onclick="showTreatingMeridian('heart')">Heart</button>
         </div>
         <div>
-          <button>Pericardium</button>
+          <button onclick="showTreatingMeridian('tripleBurner')">Triple burner</button>
+        </div>
+        <div>
+          <button onclick="showTreatingMeridian('pericardium')">Pericardium</button>
         </div>
 
       </div>
@@ -57,25 +60,25 @@
         
         <div class="treating-meridian-container">
           <div>
-            <p>System 1:</p>
+            <p class="treating-system1 js-s1">System 1:</p>
           </div>
           <div>
-            <p>System 2:</p>
+            <p class="treating-system2 js-s2">System 2:</p>
           </div>
           <div>
-            <p>System 3:</p>
+            <p class="treating-system3 js-s3">System 3:</p>
           </div>
           <div>
-            <p>System 4:</p>
+            <p class="treating-system4 js-s4">System 4:</p>
           </div>
           <div>
-            <p>System 5:</p>
+            <p class="treating-system5 js-s5">System 5:</p>
           </div>
-          <div>
-            <p>System 6:</p>
-          </div>
+
         </div>
       </div>
     </div>
+
+    <script src="meridians.js"></script>
   </body>
 </html>
