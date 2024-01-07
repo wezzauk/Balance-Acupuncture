@@ -2,14 +2,14 @@
 <html>
   <head>
     <title>Balance Acupuncture - Meridian App</title>
-    <link rel="stylesheet" href="stylesheet.css"
->  </head>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
   <body>
-    <div>Welcome to Balance Acupuncture Meridian Chooser App</div>
+    <div class="heading">Welcome to the Balance Acupuncture Meridian Tool</div>
     
     <div class="main-container">
       <div class="sick-meridian-list">
-        <div>Choose 'sick' meridian</div>
+        <div class="choose-meridian-text">Choose 'sick' meridian</div>
         <div>
           <button onclick="showTreatingMeridian('bladder')">Bladder</button>
         </div>
@@ -53,28 +53,39 @@
           <div class="sick-meridian-title">
             <p class="js-sick-meridian">Sick Meridian: </p>
           </div>
-          <div class="sick-meridian-title">
-            <p class="js-meridian-to-treat">Meridian to treat according to system:</p>
-          </div>
         </div>
         
         <div class="treating-meridian-container">
-          <div>
-            <p class="treating-system1 js-s1">System 1:</p>
+          <div class="sick-meridian-subtitle">
+            <p class="js-meridian-to-treat">Meridian to treat according to system</p>
           </div>
-          <div>
-            <p class="treating-system2 js-s2">System 2:</p>
+          <div class="treating-meridian-list-container">
+            <div class="column1-systems-list">
+              <div>
+                <p class="treating-system">System 1:</p>
+              </div>
+              <div>
+                <p class="treating-system">System 2:</p>
+              </div>
+              <div>
+                <p class="treating-system">System 3:</p>
+              </div>
+              <div>
+                <p class="treating-system">System 4:</p>
+              </div>
+              <div>
+                <p class="treating-system">System 5:</p>
+              </div>
+            </div>
+            <div class="column2-systems-result">
+              <p class="js-s1 systems-style"></p>
+              <p class="js-s2 systems-style"></p>
+              <p class="js-s3 systems-style"></p>
+              <p class="js-s4 systems-style"></p>
+              <p class="js-s5 systems-style"></p>
+              </p>
+            </div>
           </div>
-          <div>
-            <p class="treating-system3 js-s3">System 3:</p>
-          </div>
-          <div>
-            <p class="treating-system4 js-s4">System 4:</p>
-          </div>
-          <div>
-            <p class="treating-system5 js-s5">System 5:</p>
-          </div>
-
         </div>
       </div>
     </div>

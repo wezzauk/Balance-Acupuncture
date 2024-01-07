@@ -1,11 +1,11 @@
 function showTreatingMeridian(sickMeridian) {
   printSickMeridian(treatingMeridians[sickMeridian].name);
 
-  document.querySelector('.js-s1').innerHTML = `System 1: ${treatingMeridians[sickMeridian].s1}`;
-  document.querySelector('.js-s2').innerHTML = `System 2: ${treatingMeridians[sickMeridian].s2}`;
-  document.querySelector('.js-s3').innerHTML = `System 3: ${treatingMeridians[sickMeridian].s3}`;
-  document.querySelector('.js-s4').innerHTML = `System 4: ${treatingMeridians[sickMeridian].s4}`;
-  document.querySelector('.js-s5').innerHTML = `System 5: ${treatingMeridians[sickMeridian].s5}`;
+  document.querySelector('.js-s1').innerHTML = `${treatingMeridians[sickMeridian].s1}`;
+  document.querySelector('.js-s2').innerHTML = `${treatingMeridians[sickMeridian].s2}`;
+  document.querySelector('.js-s3').innerHTML = `${treatingMeridians[sickMeridian].s3}`;
+  document.querySelector('.js-s4').innerHTML = `${treatingMeridians[sickMeridian].s4}`;
+  document.querySelector('.js-s5').innerHTML = `${treatingMeridians[sickMeridian].s5}`;
 }
 
 function printSickMeridian(sickMeridian) {

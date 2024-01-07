@@ -1,9 +1,18 @@
-body{
+.heading {
   font-family: Arial;
-
+  font-size: 24px;
+  color: white;
+  margin-top:30px;
+  margin-bottom: 30px;;
+}  
+  
+  body{
+  font-family: Arial;
   background-color: rgb(37, 37, 37);
   color: white;
-  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main-container {
@@ -17,17 +26,20 @@ body{
 
 .sick-meridian-list {
   display: block;
-  background-color: lightpink;
+  background-color: rgb(24, 70, 119);
   padding: 20px 30px;
 }
 
 .results-section {
-  background-color: gray;
+  background-color: rgb(24, 70, 119);
+  color: rgb(254, 198, 1);
 
 }
 
 button {
-  background-color: yellow;
+  background-color: rgb(254, 198, 1);
+  font-weight: bold;
+  font-size: 14px;
   width: 160px;
   padding: 8px 0px;;
   margin: 10px 10px;
@@ -40,12 +52,79 @@ button {
   padding: 30px 30px;
 }
 
-.sick-meridian-title {
+.sick-meridian-title, .sick-meridian-subtitle{
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bold;
 }
 
+.sick-meridian-subtitle {
+  color: rgb(234, 115, 23);
+}
+
 .treating-meridian-container {
-  padding: 30px 30px;
+  padding: 0px 30px;
+}
+
+.treating-system, .systems-style {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+
+.treating-meridian-list-container {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+}
+
+.column1-systems-list {
+  color: rgb(211, 210, 210);
+}
+
+.column2-systems-result {
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .sick-meridian-title, .sick-meridian-subtitle{
+    margin-bottom: 0px;
+    font-size: 16px;
+  }
+
+  .treating-system, .systems-style {
+    font-size: 14px;
+    padding: 10px 0px;
+  }
+
+  .results-meridian-title-section {
+    padding: 10px 10px;
+  }
+
+  button {
+    font-size: 10px;
+    width: 110px;
+    padding: 5px 0px;;
+    margin: 5px 5px;
+  }
+
+  .treating-meridian-list-container {
+    grid-template-columns: 80px 1fr;
+  }
+
+  .treating-meridian-container {
+    padding: 0px 0px;
+  }
+
+  .sick-meridian-list {
+    padding: 20px 20px;
+  }
+
+  .heading {
+    font-size: 18px;
+  }
+
+  .choose-meridian-text {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
 }
